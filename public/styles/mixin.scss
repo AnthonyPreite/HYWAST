@@ -19,8 +19,8 @@
   @for $i from 0 through $steps {
     #{percentage($i*(1/$steps))} {
       transform: translateX((random(15)/15)+px) translateY((random(15)/15)+px);
-      filter: blur((.6+random(40)/100)+px);
-      opacity: (1-(random(40)/100));
+      filter: blur((.6+random(20)/100)+px);
+      opacity: (1-(random(20)/100));
     }
   }
 }

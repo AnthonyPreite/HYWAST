@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font section */
+
+@font-face {
+  font-family: "nm_l";
+  src: url("/fonts/neuemachina-light-webfont.woff2") format("woff");
+}
+@font-face {
+  font-family: "nm_l";
+  src: url("/fonts/neuemachina-light-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "nm_r";
+  src: url("/fonts/neuemachina-regular-webfont.woff2") format("woff");
+}
+@font-face {
+  font-family: "nm_r";
+  src: url("/fonts/neuemachina-regular-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "nm_b";
+  src: url("/fonts/neuemachina-ultrabold-webfont.woff2") format("woff");
+}
+@font-face {
+  font-family: "nm_b";
+  src: url("/fonts/neuemachina-ultrabold-webfont.woff") format("woff");
+}
+:root {
+  --maincolor: linear-gradient(180deg, #e35353 0%, #e3537f 100%);
+  --text_dark: #170d24;
+}
+
+body {
+  background: #000;
+}

@@ -1,0 +1,26 @@
+@mixin glitch {
+  /* Aberation chromatique */
+  text-shadow: -3px -1px 2px rgba(255, 0, 0, 0.25), 3px 1px 2px rgba(0, 87, 255, 0.25);
+  box-shadow: -2px -1px 2px 0px rgba(255, 0, 0, 0.25), 2px 1px 2px 0px rgba(0, 87, 255, 0.25);
+  filter: blur(0.6px);
+  animation: glitch 0.1s infinite alternate ease-in-out;
+}
+
+@mixin maincolor_text {
+  background: var(--maincolor, linear-gradient(180deg, #e35353 0%, #e3537f 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@keyframes glitch {
+  $steps: 10;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      transform: translateX((random(15)/15)+px) translateY((random(15)/15)+px);
+      filter: blur((.6+random(40)/100)+px);
+      opacity: (1-(random(40)/100));
+    }
+  }
+}

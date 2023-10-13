@@ -33,8 +33,21 @@
 :root {
   --maincolor: linear-gradient(180deg, #e35353 0%, #e3537f 100%);
   --text_dark: #170d24;
+
+  --breakpoint_0: 320px;
+  --breakpoint_1: 430px;
+  --breakpoint_2: 834px;
+  --breakpoint_3: 1200px;
 }
 
+
+
 body {
-  background: #000;
+  background-image: url("/images/background.png");
+  background-position: center top;
+  background-size: cover;
+  /* border: 5px solid red; */
+  height: 100dvh;
+  width: 100dvw;
+
 }

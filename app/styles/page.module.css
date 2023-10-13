@@ -1,0 +1,13 @@
+@import "/styles/keyframes.css";
+
+
+.main {
+  font-family: "nm_l";
+  font-size: 1rem;
+  border: 1px solid #000;
+  background: transparent;
+  min-height: 100%;
+  padding: 1rem;
+  color: var(--text_dark);
+}
+

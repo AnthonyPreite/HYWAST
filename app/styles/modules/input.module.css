@@ -1,0 +1,32 @@
+/* Les input */
+.input, .textarea {
+    background-color: transparent;
+    border: 1px solid #E35353;
+    color: #E35353;
+    font-family: nm_r;
+    padding: 4px 8px;
+    outline: none;
+}
+
+.input::placeholder, .textarea::placeholder {
+    color: #E35353;
+    font-family: nm_r;
+}
+
+.textarea {
+    height: 200px;    
+}
+
+.button {
+    display: flex;
+    padding: 4px 8px;
+    box-shadow: 0px 2px 12px 0px rgba(227, 83, 83, 0.10);
+    background: var(--maincolor);
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    outline: none;
+    font-family: nm_r;
+    color: var(--text-dark);
+}

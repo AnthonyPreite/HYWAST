@@ -9,5 +9,8 @@
   min-height: 100%;
   padding: 1rem;
   color: var(--text_dark);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 

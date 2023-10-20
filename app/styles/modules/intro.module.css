@@ -1,0 +1,34 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 1rem 0 1rem;
+    width: 100%;
+    height: 80dvh;
+    /* border: 1px solid red; */
+}
+
+.tagline {
+    width: 70%;
+    align-self: flex-start;
+    /* width: 302px; */
+}
+
+.tagline > img {
+    width: 100%;
+}
+ 
+.brain {
+    /* border: 1px solid red; */
+    width: 80%;
+    align-self: flex-end;
+}
+
+.brain > img {
+    width: 100%;
+
+}
+/* .arrow > img {
+    
+} */

@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    height: 108px;
+    width: 100%;
+    border: 1px solid #E35353;
+  }
+  
+  .details {
+      flex-grow: 1;
+  
+  }
+  
+  .project_name {
+    background: var(--maincolor); 
+    width: 100%;
+    color: var(--text-dark, #170d24);
+    font-family: "nm_b";
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: normal;
+  }
+  

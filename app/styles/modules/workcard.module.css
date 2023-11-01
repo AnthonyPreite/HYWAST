@@ -28,7 +28,11 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 2px 3px;
+  margin: 2px 8px;
+}
+
+.project_type span {
+  font-family: "nm_r";
 }
 
 .content {
@@ -39,7 +43,7 @@
   display: inline-flex;
   align-items: flex-start;
   gap: 16px;
-  margin: 2px 3px;
+  margin: 2px 8px;
 
 }
 

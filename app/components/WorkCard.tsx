@@ -1,18 +1,19 @@
 import styles from "../styles/modules/workcard.module.css";
-export default function WorkCard() {
+import { workcard } from "../types/workcard";
+export default function WorkCard(props: workcard) {
   return (
     <div className={styles.card}>
     <figure className={styles.project_img}>
-      <img src="/images/overlore.png" alt="" />
+      <img src={props.img} alt="" />
     </figure>
     <div className={styles.details}>
-      <h1 className={styles.project_name}>[new] OVERLORE</h1>
+      <h1 className={styles.project_name}>{props.projectname}</h1>
       <div className={styles.content}>
-        <p className={styles.project_type}>Type:</p>
+        <p className={styles.project_type}>Type: <span>{props.type}</span></p>
         <div className={styles.tags}>
-          <p className={styles.tag}>React</p>
-          <p className={styles.tag}>HTML</p>
-          <p className={styles.tag}>SCSS</p>
+          {props.tags.map((tag, index) => (
+          <p className={styles.tag}>{tag}</p>
+          ))}
         </div>
       </div>
     </div>

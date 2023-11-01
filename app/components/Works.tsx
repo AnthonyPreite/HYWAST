@@ -8,9 +8,9 @@ export default function Works() {
         <h2>Works.</h2>
       </header>
       <div className={works_styles.cardcontainer}>
-        <WorkCard></WorkCard>
-        <WorkCard></WorkCard>
-        <WorkCard></WorkCard>
+        <WorkCard projectname={"Overlore"} type={"Website"} tags={["HTML","SCSS","REACT"]} url={"Overlore.fr"} img={"/images/overlore.png"}></WorkCard>
+        <WorkCard projectname={""} type={""} tags={[]} url={""} img={""}></WorkCard>
+        <WorkCard projectname={""} type={""} tags={[]} url={""} img={""}></WorkCard>
       </div>
     </div>
   );

@@ -8,9 +8,11 @@ export default function Works() {
         <h2>Works.</h2>
       </header>
       <div className={works_styles.cardcontainer}>
-        <WorkCard projectname={"Overlore"} type={"Website"} tags={["HTML","SCSS","REACT"]} url={"Overlore.fr"} img={"/images/overlore.png"}></WorkCard>
-        <WorkCard projectname={""} type={""} tags={[]} url={""} img={""}></WorkCard>
-        <WorkCard projectname={""} type={""} tags={[]} url={""} img={""}></WorkCard>
+        <WorkCard projectname={"Overlore"} type={"Website"} tags={["HTML","SCSS","REACT"]} url={"Overlore.fr"} img={"/images/overlore.png"} description={"ceci est une description"}></WorkCard>
+
+        <WorkCard projectname={"Overlore2"} type={"Website"} tags={["HTML","SCSS","REACT"]} url={"Overlore.fr"} img={"/images/overlore.png"} description={"ceci est une description. ceci est une description magique et télurique"}></WorkCard>
+
+        <WorkCard projectname={"Overlore3"} type={"Website"} tags={["HTML","SCSS","REACT"]} url={"Overlore.fr"} img={"/images/overlore.png"} description={"ceci est une description"}></WorkCard>
       </div>
     </div>
   );

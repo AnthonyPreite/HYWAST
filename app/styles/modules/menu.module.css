@@ -1,0 +1,51 @@
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    /* padding: 10px; */
+  }
+  
+
+  .toggle {
+    position: relative;
+    background: none;
+    border: none;
+    color: var(--maincolor_flat);
+    font-size: 44px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    bottom: 15px;
+    /* padding-bottom: 1rem; */
+  }
+  
+  .links {
+    display: none;
+    flex-direction: column;
+  }
+  
+  .links a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .links {
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 50px;
+      left: 0;
+      background-color: #333;
+    }
+  
+    .links a {
+      text-align: center;
+      width: 100%;
+      display: block;
+    }
+  
+    .toggle {
+      display: block;
+    }
+  }

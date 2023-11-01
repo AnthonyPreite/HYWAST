@@ -4,7 +4,7 @@ import input_styles from '../styles/modules/input.module.css'
 
 const Contact = () => {
     return (
-        <div className={module_styles.module}>
+        <div className={module_styles.module} id="contact">
             <header className={module_styles.header}>
                 <h2>Contact.</h2>
             </header>

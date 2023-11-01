@@ -32,6 +32,7 @@
 }
 :root {
   --maincolor: linear-gradient(180deg, #e35353 0%, #e3537f 100%);
+  --maincolor_flat:#e35353;
   --text_dark: #170d24;
 
   --breakpoint_0: 320px;
